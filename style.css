@@ -5,7 +5,8 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
 }
-/* ----------- nav ----------- */
+
+/* Nav */
 .navbar {
   height: 8vh;
 }
@@ -20,7 +21,7 @@ body {
   transition: background-color 200ms linear;
 }
 
-/*----------Container----------*/
+/* Container */
 .container-fluid, .container {
   padding-left: 24px;
   padding-right: 24px;
@@ -32,8 +33,7 @@ body {
   z-index: 9999 !important;
 }
 
-
-/* ----------- Hero ----------- */
+/* Hero */
 .main-carousel{
   z-index: -1;
   background-image: url("images/andrew-buchanan-GBzGMm8io_I-unsplash.jpg");
@@ -53,13 +53,11 @@ body {
   margin-top: 52px;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .intro-message {
   padding-top: 160px;
   position: fixed;
-
 }
 
 .intro-message h3 {
@@ -70,32 +68,26 @@ body {
   color: #fff;
   text-decoration: none;
   padding-right: 1px;
-
 }
 
 .githubbtn:hover a {
   color: #909497;
   text-decoration: none;
   padding-right: 1px;
-
-
 }
 
-
-/*-----------Content------------*/
+/* Content */
 .content {
   z-index: 2;
   position: relative;
-
 }
 
-/*-----------a link------------*/
+/* a link */
 a:hover {
   text-decoration: none;
 }
 
-/*-----------thumbnails------------*/
-
+/* thumbnails */
 .aspectRatioBox {
   padding-top: calc(2 / 3 * 100%); /* aspect ratio 3:2 */
   background-size: cover;
